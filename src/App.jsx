@@ -34,14 +34,15 @@ function App() {
   >
     <div
       style={{
-        maxWidth: "600px",
+        maxWidth: "800px",
         width: "100%",
-        backgroundColor: "rgba(0,0,0,0.6)",
+        backgroundColor: "rgba(124, 27, 105, 0.6)",
         padding: "20px",
         borderRadius: "12px"
       }}
     >
-      <h1>📚 STUDY TRACKER</h1>
+      <h1>📚 My amazing Study Tracker</h1>
+      <h3>This is my first adventure, enjoy it!</h3>
       <p>Tienes {tasks.filter(t => !t.done).length} tareas pendientes</p>
 
       <form
@@ -51,7 +52,7 @@ function App() {
         <input
           value={title}
           onChange={(e) => setTitle(e.target.value)}
-          placeholder="Tema de estudio"
+          placeholder="Escribe tu tarea a cumplir ..."
           required
           style={{ flex: 1, padding: "8px" }}
         />
