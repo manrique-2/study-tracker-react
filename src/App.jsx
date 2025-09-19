@@ -89,6 +89,64 @@ function App() {
         Borrar todas
       </button>
     </div>
+
+    <div
+      style={{
+        maxWidth: "800px",
+        width: "100%",
+        backgroundColor: "rgba(124, 27, 105, 0.6)",
+        padding: "20px",
+        borderRadius: "12px"
+      }}
+    >
+      <h1>📚 My amazing Study Tracker</h1>
+      <h3>This is my first adventure, enjoy it!</h3>
+      <p>Tienes {tasks.filter(t => !t.done).length} tareas pendientes</p>
+
+      <form
+        onSubmit={addTask}
+        style={{ display: "flex", gap: "10px", marginBottom: "15px" }}
+      >
+        <input
+          value={title}
+          onChange={(e) => setTitle(e.target.value)}
+          placeholder="Escribe tu tarea a cumplir ..."
+          required
+          style={{ flex: 1, padding: "8px" }}
+        />
+        <button type="submit" style={{ padding: "8px 12px" }}>
+          Agregar
+        </button>
+      </form>
+
+      <ul style={{ listStyle: "none", padding: 0 }}>
+        {tasks.map((t) => (
+          <li
+            key={t.id}
+            onClick={() => toggleTask(t.id)}
+            style={{
+              cursor: "pointer",
+              textDecoration: t.done ? "line-through" : "none",
+              opacity: t.done ? 0.6 : 1,
+              background: "#1e293b",
+              color: "#e2e8f0",
+              margin: "5px 0",
+              padding: "8px",
+              borderRadius: "6px"
+            }}
+          >
+            {t.title}
+          </li>
+        ))}
+      </ul>
+
+      <button
+        onClick={clearTasks}
+        style={{ marginTop: "10px", padding: "8px 12px" }}
+      >
+        Borrar todas
+      </button>
+    </div>
   </div>
 );
 }
