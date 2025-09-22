@@ -73,7 +73,7 @@ function App() {
         style={{
           maxWidth: "400px",
           width: "100%",
-          backgroundColor: "rgba(124, 27, 105, 0.6)",
+          backgroundColor: "rgba(51, 191, 234, 0.6)",
           padding: "20px",
           borderRadius: "12px"
         }}
@@ -132,7 +132,7 @@ function App() {
         style={{
           maxWidth: "400px",
           width: "100%",
-          backgroundColor: "rgba(46, 144, 189, 0.6)",
+          backgroundColor: "rgba(201, 94, 23, 0.6)",
           padding: "20px",
           borderRadius: "12px"
         }}
