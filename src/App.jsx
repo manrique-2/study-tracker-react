@@ -78,7 +78,7 @@ function App() {
           borderRadius: "12px"
         }}
       >
-        <h1>📚👀 My amazing Study Tracker</h1>
+        <h1>📚👀 My Amazing Study Tracker</h1>
         <h3>This is my first adventure, enjoy it!</h3>
         <p>Tienes {studyTasks.filter((t) => !t.done).length} tareas pendientes</p>
 
@@ -184,6 +184,53 @@ function App() {
         >
           Borrar todas
         </button>
+      </div>
+
+          {/* 🧠 COURSES */}
+      <div
+        style={{
+          maxWidth: "400px",
+          width: "100%",
+          backgroundColor: "rgba(241, 23, 176, 0.6)",
+          padding: "20px",
+          justifyContent: "center",
+          borderRadius: "12px",
+          gap: "30px",
+        }}
+      >
+        <h1>MY COURSES</h1>
+        <h3>MY LIST OF 8TH SEMESTER ....</h3>
+        <ol>
+          <li>INGENIERIA DE SOFTWARE</li>
+          <li>ARQUITECTURA DE COMPUTADORAS</li>
+          <li>INGLES TECNICO II</li>
+          <li>PROCESAMIENTO DE IMAGENES</li>
+          <li>INVESTIGACION, DESARROLLO E INNOVACION</li>
+          <li>DISENO ASISTIDO COMPUTADORA</li>
+        </ol>
+        
+
+
+        <ul style={{ listStyle: "none", padding: 0 }}>
+          {thoughtTasks.map((t) => (
+            <li
+              key={t.id}
+              onClick={() => toggleThoughtTask(t.id)}
+              style={{
+                cursor: "pointer",
+                textDecoration: t.done ? "line-through" : "none",
+                opacity: t.done ? 0.6 : 1,
+                background: "#1e293b",
+                color: "#e2e8f0",
+                margin: "5px 0",
+                padding: "8px",
+                borderRadius: "6px"
+              }}
+            >
+              {t.title}
+            </li>
+          ))}
+        </ul>
       </div>
     </div>
   );
