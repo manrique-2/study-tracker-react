@@ -89,7 +89,7 @@ function App() {
           <input
             value={studyTitle}
             onChange={(e) => setStudyTitle(e.target.value)}
-            placeholder="Escribe tu tarea a cumplir ..."
+            placeholder="Desarrolla una tarea para cumplir ..."
             required
             style={{ flex: 1, padding: "8px" }}
           />
