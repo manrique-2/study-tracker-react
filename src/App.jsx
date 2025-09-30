@@ -127,7 +127,7 @@ function App() {
         </button>
       </div>
 
-      {/* 🧠 Thoughts */}
+      {/* 🧠 THESE ARE MY THOUGHTS */}
       <div
         style={{
           maxWidth: "400px",
@@ -186,7 +186,7 @@ function App() {
         </button>
       </div>
 
-          {/* 🧠 COURSES */}
+          {/* 🧠 THESE ARE MY COURSES */}
       <div
         style={{
           maxWidth: "400px",
