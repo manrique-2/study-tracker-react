@@ -138,7 +138,7 @@ function App() {
         }}
       >
         <h1>🧠☁️ My incredible thoughts</h1>
-        <h3>These are my current ideas ...</h3>
+        <h3>THESE ARE MY CURRENT IDEAS THAT I EXPECT TO ACCOMPLISH ...</h3>
         <p>Tienes {thoughtTasks.filter((t) => !t.done).length} ideas pendientes</p>
 
         <form
@@ -201,12 +201,12 @@ function App() {
         <h1>MY COURSES</h1>
         <h3>MY LIST OF 8TH SEMESTER ....</h3>
         <ol>
-          <li>INGENIERIA DE SOFTWARE</li>
-          <li>ARQUITECTURA DE COMPUTADORAS</li>
-          <li>INGLES TECNICO II</li>
-          <li>PROCESAMIENTO DE IMAGENES</li>
-          <li>INVESTIGACION, DESARROLLO E INNOVACION</li>
-          <li>DISENO ASISTIDO COMPUTADORA</li>
+          <li>SOFTWARE ENGINEERING</li>
+          <li>COMPUTER ARQUITECTURE</li>
+          <li>TECHNIQUE ENGLISH II</li>
+          <li>IMAGE PROCESSING</li>
+          <li>RESEARCH, DEVELOPMENT AND INNOVATION</li>
+          <li>ASSISTED COMPUTER DESIGN</li>
         </ol>
         
 
