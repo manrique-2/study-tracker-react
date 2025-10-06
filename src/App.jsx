@@ -61,7 +61,7 @@ function App() {
         height: "100vh",
         width: "100vw",
         backgroundImage:
-          "url('https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=1350&q=80')",
+          "url('https://www.craftmaniacos.com/wp-content/uploads/2021/01/DramaticSkys2-1024x576.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         color: "#fff",
@@ -199,7 +199,7 @@ function App() {
         }}
       >
         <h1>MY COURSES</h1>
-        <h3>MY LIST OF 8TH SEMESTER ....</h3>
+        <h3>MY PRINCIPLE LIST 8TH SEPTEMBER ....</h3>
         <ol>
           <li>SOFTWARE ENGINEERING</li>
           <li>COMPUTER ARQUITECTURE</li>
