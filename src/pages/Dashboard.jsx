@@ -199,7 +199,7 @@ export default function Dashboard() {
         }}
       >
         <h1>MY COURSES</h1>
-        <h3>MY PRINCIPLE LIST 8TH SEPTEMBER ....</h3>
+        <h3>MY PRINCIPLE LIST 8TH SEMESTER ....</h3>
         <ol>
           <li>SOFTWARE ENGINEERING</li>
           <li>COMPUTER ARQUITECTURE</li>
