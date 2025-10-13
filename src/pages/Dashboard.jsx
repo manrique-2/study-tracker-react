@@ -201,10 +201,10 @@ export default function Dashboard() {
         <h1>MY COURSES</h1>
         <h3>MY PRINCIPLE LIST 8TH SEMESTER ....</h3>
         <ol>
-          <li>SOFTWARE ENGINEERING</li>
-          <li>COMPUTER ARQUITECTURE</li>
-          <li>TECHNIQUE ENGLISH II</li>
-          <li>IMAGE PROCESSING</li>
+          <li>SOFTWARE ENG.</li>
+          <li>COMPUTER ARQ</li>
+          <li>TECHNIQUE ENG II</li>
+          <li>IMAGE PROCESS</li>
           <li>RESEARCH, DEVELOPMENT AND INNOVATION</li>
           <li>ASSISTED COMPUTER DESIGN</li>
         </ol>
