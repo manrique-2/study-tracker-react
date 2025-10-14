@@ -74,7 +74,7 @@ export default function Dashboard() {
           borderRadius: "12px",
         }}
       >
-        <h1>📚👀 MY AMAZING STUDY TRACKER</h1>
+        <h1>📚👀 THE INCREDIBLE STUDY TRACKER</h1>
         <h3>This is my first adventure, enjoy it!</h3>
         <p>
           Tienes {studyTasks.filter((t) => !t.done).length} tareas pendientes
