@@ -69,7 +69,7 @@ export default function Dashboard() {
         style={{
           maxWidth: "400px",
           width: "100%",
-          backgroundColor: "rgba(51, 191, 234, 0.6)",
+          backgroundColor: "rgba(214, 7, 255, 0.6)",
           padding: "20px",
           borderRadius: "12px",
         }}
