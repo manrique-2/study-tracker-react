@@ -69,7 +69,7 @@ export default function Dashboard() {
         style={{
           maxWidth: "400px",
           width: "100%",
-          backgroundColor: "rgba(214, 7, 255, 0.6)",
+          backgroundColor: "rgba(23, 255, 155, 0.6)",
           padding: "20px",
           borderRadius: "12px",
         }}
@@ -125,7 +125,7 @@ export default function Dashboard() {
         </button>
       </div>
 
-      {/* 🧠 THESE ARE MY THOUGHTS */}
+      {/* 🧠 THESE ARE MY CURRENT THOUGHTS */}
       <div
         style={{
           maxWidth: "400px",
@@ -135,7 +135,7 @@ export default function Dashboard() {
           borderRadius: "12px",
         }}
       >
-        <h1>🧠☁️ My incredible thoughts</h1>
+        <h1>🧠☁️ MY AMAZING THOUGHTS</h1>
         <h3>THESE ARE MY CURRENT IDEAS THAT I EXPECT TO ACCOMPLISH ...</h3>
         <p>
           Tienes {thoughtTasks.filter((t) => !t.done).length} ideas pendientes
@@ -186,7 +186,7 @@ export default function Dashboard() {
         </button>
       </div>
 
-      {/* 🧠 THESE ARE MY COURSES */}
+      {/* 🧠 THOSE ARE MY COURSES */}
       <div
         style={{
           maxWidth: "400px",
@@ -198,10 +198,10 @@ export default function Dashboard() {
           gap: "30px",
         }}
       >
-        <h1>MY COURSES</h1>
+        <h1>MY PRINCIPLE LIST OF COURSES</h1>
         <h3>MY PRINCIPLE LIST 8TH SEMESTER ....</h3>
         <ol>
-          <li>SOFTWARE ENG.</li>
+          <li>INGENIERIA SOFTWARE.</li>
           <li>COMPUTER ARQ</li>
           <li>TECHNIQUE ENG II</li>
           <li>IMAGE PROCESS</li>
