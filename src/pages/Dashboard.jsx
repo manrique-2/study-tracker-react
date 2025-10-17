@@ -198,7 +198,7 @@ export default function Dashboard() {
           gap: "30px",
         }}
       >
-        <h1>MY MAIN COURSES</h1>
+        <h1>MY PRINCIPLE LIST OF COURSES</h1>
         <h3>MY PRINCIPLE LIST 8TH SEMESTER ....</h3>
         <ol>
           <li>SOFTWARE ENG.</li>
