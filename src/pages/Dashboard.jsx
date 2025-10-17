@@ -69,7 +69,7 @@ export default function Dashboard() {
         style={{
           maxWidth: "400px",
           width: "100%",
-          backgroundColor: "rgba(214, 7, 255, 0.6)",
+          backgroundColor: "rgba(23, 255, 155, 0.6)",
           padding: "20px",
           borderRadius: "12px",
         }}
@@ -201,7 +201,7 @@ export default function Dashboard() {
         <h1>MY PRINCIPLE LIST OF COURSES</h1>
         <h3>MY PRINCIPLE LIST 8TH SEMESTER ....</h3>
         <ol>
-          <li>SOFTWARE ENG.</li>
+          <li>INGENIERIA SOFTWARE.</li>
           <li>COMPUTER ARQ</li>
           <li>TECHNIQUE ENG II</li>
           <li>IMAGE PROCESS</li>
