@@ -202,8 +202,8 @@ export default function Dashboard() {
         <h3>MY PRINCIPLE LIST 8TH SEMESTER ....</h3>
         <ol>
           <li>INGENIERIA SOFTWARE.</li>
-          <li>COMPUTER ARQ</li>
-          <li>TECHNIQUE ENG II</li>
+          <li>ARQUITECTURA DE COMPUTADORAS</li>
+          <li>INGLES TECNICO II</li>
           <li>IMAGE PROCESS</li>
           <li>RESEARCH, DEVELOPMENT AND INNOVATION</li>
           <li>ASSISTED COMPUTER DESIGN</li>
