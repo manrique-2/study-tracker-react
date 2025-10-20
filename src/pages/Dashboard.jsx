@@ -204,9 +204,9 @@ export default function Dashboard() {
           <li>INGENIERIA SOFTWARE.</li>
           <li>ARQUITECTURA DE COMPUTADORAS</li>
           <li>INGLES TECNICO II</li>
-          <li>IMAGE PROCESS</li>
+          <li>PROCESAMIENTO IMAGENES</li>
           <li>RESEARCH, DEVELOPMENT AND INNOVATION</li>
-          <li>ASSISTED COMPUTER DESIGN</li>
+          <li>DISEÑO ASISTIDO COMPUTADORA</li>
         </ol>
       </div>
     </div>
