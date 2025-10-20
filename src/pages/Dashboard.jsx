@@ -186,7 +186,7 @@ export default function Dashboard() {
         </button>
       </div>
 
-      {/* 🧠 THOSE ARE MY COURSES */}
+      {/* 🧠 THOSE ARE MY MAIN COURSES */}
       <div
         style={{
           maxWidth: "400px",
