@@ -87,7 +87,7 @@ export default function Dashboard() {
           <input
             value={studyTitle}
             onChange={(e) => setStudyTitle(e.target.value)}
-            placeholder="Establece una tarea para desarrollar ..."
+            placeholder="ESTABLECE TU TAREA A DESARROLLAR ..."
             required
             style={{ flex: 1, padding: "8px" }}
           />
@@ -125,7 +125,7 @@ export default function Dashboard() {
         </button>
       </div>
 
-      {/* 🧠 THESE ARE MY PRINCIPAL THOUGHTS */}
+      {/* 🧠 THESE ARE MY CURRENT THOUGHTS */}
       <div
         style={{
           maxWidth: "400px",
