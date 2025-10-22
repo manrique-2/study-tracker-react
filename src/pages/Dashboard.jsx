@@ -87,7 +87,7 @@ export default function Dashboard() {
           <input
             value={studyTitle}
             onChange={(e) => setStudyTitle(e.target.value)}
-            placeholder="ESTABLECE TU TAREA A DESARROLLAR ..."
+            placeholder="CUENTAME SOBRE TU TAREA ..."
             required
             style={{ flex: 1, padding: "8px" }}
           />
