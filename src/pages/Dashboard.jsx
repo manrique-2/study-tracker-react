@@ -125,7 +125,7 @@ export default function Dashboard() {
         </button>
       </div>
 
-      {/* 🧠 THESE ARE MY CURRENT THOUGHTS */}
+      {/* 🧠 WHICH MY CURRENT THOUGHTS */}
       <div
         style={{
           maxWidth: "400px",
